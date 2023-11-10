@@ -1,0 +1,17 @@
+.register {
+    height: calc(100vh - 50px);
+    background: url("https://images.pexels.com/photos/960137/pexels-photo-960137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+     padding-top:-30px
+}
+
+.loginInputs {
+    border-radius: 10px;
+}
+
+.title {
+    color: white;
+    font-weight: 600;
+}
