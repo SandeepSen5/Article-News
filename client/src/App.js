@@ -18,7 +18,7 @@ import Mypage from "./pages/Mypage/Mypage";
 import ResponsiveAppBar from "./component/topbar/bar";
 import Error from "./pages/error/error";
 import Categorypost from "./pages/categorypost/categorypost";
-axios.defaults.baseURL = 'http://localhost:4040';
+axios.defaults.baseURL = 'http://localhost:4050';
 axios.defaults.withCredentials = true;
 
 const Layout = () => {

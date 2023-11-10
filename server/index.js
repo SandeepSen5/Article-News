@@ -16,7 +16,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:4040',
+    origin: 'http://localhost:4050',
 }));
 
 mongoose.set('debug', true);
@@ -49,7 +49,7 @@ app.use((err, req, res, next) => {
     return res.status(errorStatus).send(errorMessage);
 })
 
-app.listen(4040, () => {
+app.listen(4050, () => {
     console.log("server is running");
 })
 // La4h33BfkppjHfvr
