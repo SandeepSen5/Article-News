@@ -18,7 +18,7 @@ import Mypage from "./pages/Mypage/Mypage";
 import ResponsiveAppBar from "./component/topbar/bar";
 import Error from "./pages/error/error";
 import Categorypost from "./pages/categorypost/categorypost";
-axios.defaults.baseURL = 'http://www.letsblog.fun';
+axios.defaults.baseURL = 'https://www.letsblog.fun';
 axios.defaults.withCredentials = true;
 
 const Layout = () => {

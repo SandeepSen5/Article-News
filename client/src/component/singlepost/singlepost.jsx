@@ -76,7 +76,7 @@ export default function Singlepost() {
         <div className='singlePost'>
 
             <div className="singlePostWrapper">
-                {post.photo && <img src={"http://www.letsblog.fun/uploads/" + post.photo[0]} alt='' className='singlePostImg' />}
+                {post.photo && <img src={"https://www.letsblog.fun/uploads/" + post.photo[0]} alt='' className='singlePostImg' />}
                 {post.title && <h1 className="singlePostTitle">{post.title}</h1>}
                 <div className='singlePostEdit' >
                     {post && user && post.userid?._id == user._id &&
