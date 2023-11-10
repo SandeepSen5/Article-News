@@ -97,7 +97,7 @@ export default function Write() {
 
     return (
         <div className='write'>
-            {photo.length > 0 && <img src={"http://localhost:4000/uploads/" + photo} alt='' className='writeImg' />}
+            {photo.length > 0 && <img src={"http://www.letsblog.fun/uploads/" + photo} alt='' className='writeImg' />}
             {photo.length < 1 && <img src={"https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" + photo} alt='' className='writeImg' />}
             <form action='' className='writeForm' onSubmit={handlePost}>
                 <div className="writeFormGroup mt-5">
