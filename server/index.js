@@ -14,9 +14,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 
+// app.use(cors({
+//     credentials: true,
+//     origin: 'http://localhost:4050',
+// }));
+
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:4050',
+    origin: 'http://www.letsblog.fun',
 }));
 
 mongoose.set('debug', true);

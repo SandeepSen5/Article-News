@@ -37,7 +37,7 @@ export default function Categorypost() {
                         <div className="post" key={post.id}>
                             <img
                                 className="postImg rounded-2xl"
-                                src={"http://localhost:4000/uploads/" + post.photo}
+                                src={"http://www.letsblog.fun/uploads/" + post.photo}
                                 alt=""
                             />
                             <div className="postInfo">
