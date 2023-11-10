@@ -21,7 +21,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 
 app.use(cors({
     credentials: true,
-    origin: 'http://www.letsblog.fun',
+    origin: 'https://www.letsblog.fun',
 }));
 
 mongoose.set('debug', true);
